@@ -1,0 +1,50 @@
+# Gem Score weights — must sum to 100
+weights:
+  social_buzz: 20          # Reddit mentions × sentiment
+  scarcity_signal: 20      # Low reviews + high rating = hidden gem
+  landmark_proximity: 15   # Distance to iconic PNW landmarks
+  unique_features: 20      # Old growth, volcanic, coastal, hot springs, etc.
+  community_language: 15   # "bucket list", "underrated", "magical" keywords
+  practical_score: 10      # Bathrooms, accessibility, safety
+
+# Unique feature bonus tags
+unique_features:
+  - old_growth_forest: 8
+  - volcanic_landscape: 8
+  - hot_springs_nearby: 10
+  - coastal_oceanfront: 8
+  - alpine_lake: 7
+  - waterfall_nearby: 7
+  - old_growth_rainforest: 10
+  - river_access: 5
+  - dark_sky: 6
+  - walk_in_only: 5
+
+# Community language signals (increases gem score)
+gem_language_signals:
+  - "hidden gem"
+  - "underrated"
+  - "secret spot"
+  - "bucket list"
+  - "magical"
+  - "off the beaten path"
+  - "most people don't know"
+  - "locals only"
+  - "go before it gets popular"
+  - "blew my mind"
+  - "best campsite I've ever"
+  - "highly recommend"
+  - "absolutely stunning"
+
+# Scarcity thresholds — sites with fewer total reviews but high rating score higher
+scarcity:
+  low_review_threshold: 50    # Below this = "hidden"
+  high_rating_threshold: 4.4  # Above this = quality signal
+  hidden_gem_bonus: 15        # Bonus applied if both conditions met
+
+# Landmark proximity scoring
+landmark_proximity:
+  within_5_miles: 10
+  within_15_miles: 7
+  within_30_miles: 4
+  within_60_miles: 2

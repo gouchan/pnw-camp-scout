@@ -1,0 +1,87 @@
+regions:
+  coastal_wa:
+    name: "Coastal Washington"
+    keywords: ["coast", "coastal wa", "washington coast", "olympic coast", "pacific coast wa"]
+    states: ["WA"]
+    subregions:
+      - "Long Beach Peninsula"
+      - "Cape Disappointment"
+      - "Kalaloch"
+      - "La Push"
+      - "Dungeness Spit"
+
+  olympic_peninsula:
+    name: "Olympic Peninsula"
+    keywords: ["olympic", "hoh", "olympic peninsula", "olympic np", "olympic rainforest"]
+    states: ["WA"]
+    subregions:
+      - "Hoh Rainforest"
+      - "Sol Duc"
+      - "Hurricane Ridge"
+      - "Staircase"
+      - "Quinault"
+
+  cascades_wa:
+    name: "Washington Cascades"
+    keywords: ["cascades wa", "washington cascades", "mt rainier", "rainier", "north cascades", "ohanapecosh"]
+    states: ["WA"]
+    subregions:
+      - "Mt. Rainier"
+      - "North Cascades"
+      - "Alpine Lakes"
+      - "Wenatchee"
+      - "Leavenworth"
+
+  eastern_wa:
+    name: "Eastern Washington"
+    keywords: ["eastern wa", "eastern washington", "palouse", "yakima", "spokane", "grand coulee"]
+    states: ["WA"]
+    subregions:
+      - "Sun Lakes"
+      - "Steamboat Rock"
+      - "Palouse Falls"
+      - "Yakima Valley"
+
+  mt_hood:
+    name: "Mt. Hood / Columbia Gorge"
+    keywords: ["mt hood", "mount hood", "columbia gorge", "gorge", "hood river", "lost lake"]
+    states: ["OR"]
+    subregions:
+      - "Mt. Hood"
+      - "Columbia River Gorge"
+      - "Zigzag"
+      - "Lost Lake"
+      - "Timothy Lake"
+
+  coastal_or:
+    name: "Coastal Oregon"
+    keywords: ["oregon coast", "coastal or", "cannon beach", "lincoln city", "brookings", "gold beach"]
+    states: ["OR"]
+    subregions:
+      - "Oswald West"
+      - "Cape Lookout"
+      - "Sunset Bay"
+      - "Harris Beach"
+      - "Samuel H Boardman"
+
+  cascades_or:
+    name: "Oregon Cascades"
+    keywords: ["oregon cascades", "crater lake", "three sisters", "bend or", "bend camping", "deschutes"]
+    states: ["OR"]
+    subregions:
+      - "Crater Lake"
+      - "Three Sisters"
+      - "Deschutes NF"
+      - "Smith Rock"
+      - "Newberry Volcano"
+
+  eastern_or:
+    name: "Eastern Oregon"
+    keywords: ["eastern or", "eastern oregon", "steens", "alvord", "john day", "malheur", "burns or"]
+    states: ["OR"]
+    subregions:
+      - "Steens Mountain"
+      - "Alvord Desert"
+      - "John Day Fossil Beds"
+      - "Malheur NWR"
+      - "Ochoco"

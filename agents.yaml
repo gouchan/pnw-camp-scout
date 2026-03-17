@@ -1,0 +1,95 @@
+version: "1.0"
+name: pnw-camp-scout-swarm
+description: "Multi-agent swarm for PNW campsite discovery and enrichment"
+
+agents:
+
+  scout:
+    version: "1.0"
+    description: "Fetches campsite data and real-time availability from Rec.gov, Campflare, and state park systems"
+    max_cost: 0.10
+    max_runtime: 120  # seconds
+    prompt: |
+      You are the Scout Agent for PNW Camp Scout. Your job:
+      1. Query the RIDB API for federal campground data in WA and OR
+      2. Check real-time availability via Campflare and Rec.gov endpoints
+      3. Store results in the SQLite database at data/campsites.db
+      4. Cache availability with 15-minute TTL, facility data with 24-hour TTL
+      Run: python main.py --init to set up DB, then use ScoutAgent directly
+    tools: [Bash, Read, Write, Edit]
+    chains_to: social
+
+  social:
+    version: "1.0"
+    description: "Extracts community intelligence from Reddit, Google Places, and blogs"
+    max_cost: 0.50
+    max_runtime: 300
+    prompt: |
+      You are the Social Agent for PNW Camp Scout. Your job:
+      1. Search r/PNWCamping, r/Oregon, r/Washington, r/WildernessBackpacking for campsite mentions
+      2. Fetch Google Places ratings and reviews for each campsite
+      3. Extract sentiment scores and gem language signals ("hidden gem", "bucket list", etc.)
+      4. Save all social_data to the database for the classifier
+      Focus on finding the posts where locals call a place "underrated" or "most people don't know"
+    tools: [Bash, Read, Write, Edit]
+    chains_to: content
+
+  content:
+    version: "1.0"
+    description: "Discovers high-engagement YouTube videos and blog posts about PNW campsites"
+    max_cost: 0.20
+    max_runtime: 180
+    prompt: |
+      You are the Content Agent for PNW Camp Scout. Your job:
+      1. Search YouTube Data API for camping videos with >10k views or >50 comments
+      2. Prioritize: "hidden gem", "bucket list", "best camping" PNW content
+      3. Extract campsite mentions from video titles and descriptions
+      4. Find blog posts and trip reports via web search
+      Search terms: "Pacific Northwest hidden gem camping", "best campsites Washington Oregon",
+      "PNW camping bucket list", site-specific searches for each campsite
+    tools: [Bash, Read, Write, Edit]
+    chains_to: classifier
+
+  classifier:
+    version: "1.0"
+    description: "Uses Claude to assign gem scores and extract structured profiles for all campsites"
+    max_cost: 2.00
+    max_runtime: 600
+    prompt: |
+      You are the Classifier Agent for PNW Camp Scout. Your job:
+      1. For each campsite in the database, gather all social_data
+      2. Call ClassifierAgent.classify() to get a gem profile from Claude
+      3. Save profiles to gem_profiles table
+      4. Log scores: anything 90+ is legendary, 75+ is bucket-list
+      Gem score is 0-100. The key signals:
+      - Few reviews + high rating = hidden gem bonus
+      - Reddit "gem language" mentions = community validation
+      - Proximity to iconic PNW landmarks
+      - Unique features: old growth, volcanic, hot springs, coastal, dark sky
+      After scoring, print a ranked leaderboard of top 10 gems.
+    tools: [Bash, Read, Write, Edit]
+    chains_to: null  # End of chain
+
+# Trigger: run full pipeline
+pipeline:
+  - scout
+  - social
+  - content
+  - classifier
+
+# Scheduled runs
+schedules:
+  availability_refresh:
+    agent: scout
+    interval: "every 1 hour"
+    description: "Refresh availability cache for top 50 gem sites"
+
+  social_refresh:
+    agent: social
+    interval: "daily at 3am"
+    description: "Re-scrape Reddit and Google for new mentions"
+
+  full_pipeline:
+    agents: [scout, social, content, classifier]
+    interval: "weekly on Monday at 2am"
+    description: "Full enrichment run for all campsites"
