@@ -61,7 +61,7 @@ You need a few free API keys. Here's where to get each one:
 2. Tap **START**
 3. Type `/newbot`
 4. Follow the prompts: pick a name (e.g. "PNW Camp Scout") and a username (e.g. `@PNWCampScoutBot`)
-5. BotFather gives you a token that looks like: `110201543:AAHdqTcvCH1vGWJxfSeofSs4tHF9pmYz58e`
+5. BotFather gives you a token that looks like: `1234567890:ABCDefGhIJKlmNoPQRsTUvwXYZ-example`
 6. Copy it — you'll paste it in Step 4
 
 ### Step 3 — Install on your computer
