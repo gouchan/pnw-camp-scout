@@ -13,7 +13,14 @@
       "notes": "Olympic NP oceanfront. Bluff camping above the Pacific. Massive old growth. One of the most dramatic campground settings in the US.",
       "bucket_list": true,
       "unique_features": ["coastal_oceanfront", "old_growth_forest"],
-      "best_season": "June-September"
+      "best_season": "June-September",
+      "pet_friendly": true,
+      "dogs_on_leash_ok": true,
+      "water_nearby": "ocean",
+      "water_swimmable": false,
+      "hiking_trails": true,
+      "max_group_size": 8,
+      "has_group_sites": false
     },
     {
       "id": "manual-hoh",
@@ -28,7 +35,14 @@
       "notes": "Deepest temperate rainforest in the lower 48. Moss-draped maples, Roosevelt elk wandering camp. Otherworldly.",
       "bucket_list": true,
       "unique_features": ["old_growth_rainforest", "river_access"],
-      "best_season": "May-October"
+      "best_season": "May-October",
+      "pet_friendly": true,
+      "dogs_on_leash_ok": true,
+      "water_nearby": "river",
+      "water_swimmable": false,
+      "hiking_trails": true,
+      "max_group_size": 8,
+      "has_group_sites": false
     },
     {
       "id": "manual-sol-duc",
@@ -43,7 +57,14 @@
       "notes": "Camp and soak in natural hot springs pools. Surrounded by old growth. Roosevelt elk common. Trail to Sol Duc Falls is one of the best day hikes in the Olympics.",
       "bucket_list": true,
       "unique_features": ["hot_springs_nearby", "old_growth_forest", "waterfall_nearby"],
-      "best_season": "May-October"
+      "best_season": "May-October",
+      "pet_friendly": true,
+      "dogs_on_leash_ok": true,
+      "water_nearby": "hot_spring",
+      "water_swimmable": true,
+      "hiking_trails": true,
+      "max_group_size": 8,
+      "has_group_sites": false
     },
     {
       "id": "manual-mora",
@@ -58,7 +79,14 @@
       "notes": "Gateway to Rialto Beach and the wilderness coast. Sea stacks, tide pools, bald eagles. Walk-in beach camping permits available for multi-night trips.",
       "bucket_list": true,
       "unique_features": ["coastal_oceanfront", "old_growth_forest"],
-      "best_season": "May-September"
+      "best_season": "May-September",
+      "pet_friendly": true,
+      "dogs_on_leash_ok": true,
+      "water_nearby": "ocean",
+      "water_swimmable": false,
+      "hiking_trails": true,
+      "max_group_size": 8,
+      "has_group_sites": false
     },
     {
       "id": "manual-ohanapecosh",
@@ -73,7 +101,14 @@
       "notes": "Mt. Rainier's most lush campsite, surrounded by ancient old-growth forest along the Ohanapecosh River. Grove of the Patriarchs — 1000-year-old trees — is a 10-minute walk.",
       "bucket_list": true,
       "unique_features": ["old_growth_forest", "river_access"],
-      "best_season": "July-September"
+      "best_season": "July-September",
+      "pet_friendly": true,
+      "dogs_on_leash_ok": true,
+      "water_nearby": "river",
+      "water_swimmable": false,
+      "hiking_trails": true,
+      "max_group_size": 15,
+      "has_group_sites": true
     },
     {
       "id": "manual-lost-lake",
@@ -88,7 +123,14 @@
       "notes": "Private resort campground — mirror-image reflection of Mt. Hood on the lake. One of the most photographed camping spots in Oregon. Canoe rentals, hiking, and silence.",
       "bucket_list": true,
       "unique_features": ["alpine_lake", "volcanic_landscape"],
-      "best_season": "June-October"
+      "best_season": "June-October",
+      "pet_friendly": true,
+      "dogs_on_leash_ok": true,
+      "water_nearby": "lake",
+      "water_swimmable": true,
+      "hiking_trails": true,
+      "max_group_size": 30,
+      "has_group_sites": true
     },
     {
       "id": "manual-alvord-desert",
@@ -103,7 +145,14 @@
       "notes": "Oregon's secret desert. A 12x7 mile dry lake bed in the rain shadow of Steens Mountain. Borax Hot Springs right at the edge of the playa. Zero light pollution. Surreal landscape that feels like the moon.",
       "bucket_list": true,
       "unique_features": ["hot_springs_nearby", "dark_sky", "volcanic_landscape"],
-      "best_season": "April-October (avoid wet season — playa floods)"
+      "best_season": "April-October (avoid wet season — playa floods)",
+      "pet_friendly": true,
+      "dogs_on_leash_ok": true,
+      "water_nearby": "hot_spring",
+      "water_swimmable": true,
+      "hiking_trails": false,
+      "max_group_size": 50,
+      "has_group_sites": false
     },
     {
       "id": "manual-steens-mountain",
@@ -118,7 +167,14 @@
       "notes": "Oregon's highest fault-block mountain. Glacially carved gorges dropping 5000 feet. Pronghorn, bighorn sheep, golden eagles. Gorge views rival the Grand Canyon. Page Springs is at creek level; Fish Lake is alpine.",
       "bucket_list": true,
       "unique_features": ["alpine_lake", "dark_sky", "volcanic_landscape"],
-      "best_season": "July-October"
+      "best_season": "July-October",
+      "pet_friendly": true,
+      "dogs_on_leash_ok": true,
+      "water_nearby": "lake",
+      "water_swimmable": false,
+      "hiking_trails": true,
+      "max_group_size": 40,
+      "has_group_sites": true
     },
     {
       "id": "manual-oswald-west",
@@ -133,7 +189,14 @@
       "notes": "Walk-in only (wheelbarrows provided). Tucked in a cove surrounded by old-growth headland forest. Short Point surf break. Black bears common. No generators, no RVs. One of Oregon's most beloved coastal gems.",
       "bucket_list": true,
       "unique_features": ["coastal_oceanfront", "old_growth_forest", "walk_in_only"],
-      "best_season": "June-September"
+      "best_season": "June-September",
+      "pet_friendly": true,
+      "dogs_on_leash_ok": true,
+      "water_nearby": "ocean",
+      "water_swimmable": true,
+      "hiking_trails": true,
+      "max_group_size": 6,
+      "has_group_sites": false
     },
     {
       "id": "manual-cape-lookout",
@@ -148,7 +211,14 @@
       "notes": "Old-growth sitka spruce forest meets the Pacific. The cape trail extends 2.5 miles out into the ocean — whale watching from a headland 400 ft above the water. Sand dunes adjacent.",
       "bucket_list": true,
       "unique_features": ["coastal_oceanfront", "old_growth_forest"],
-      "best_season": "May-September"
+      "best_season": "May-September",
+      "pet_friendly": true,
+      "dogs_on_leash_ok": true,
+      "water_nearby": "ocean",
+      "water_swimmable": false,
+      "hiking_trails": true,
+      "max_group_size": 25,
+      "has_group_sites": true
     },
     {
       "id": "manual-harris-beach",
@@ -163,7 +233,14 @@
       "notes": "Southern Oregon coast's crown jewel. Enormous sea stacks, offshore islands. One of the most important nesting sites for seabirds in Oregon. Sunset views are legendary.",
       "bucket_list": true,
       "unique_features": ["coastal_oceanfront"],
-      "best_season": "Year-round (mild climate)"
+      "best_season": "Year-round (mild climate)",
+      "pet_friendly": true,
+      "dogs_on_leash_ok": true,
+      "water_nearby": "ocean",
+      "water_swimmable": false,
+      "hiking_trails": false,
+      "max_group_size": 30,
+      "has_group_sites": true
     },
     {
       "id": "manual-icicle-gorge",
@@ -178,7 +255,14 @@
       "notes": "Creek-side camping in the Wenatchee NF. Icicle Creek loop trail walks through old-growth ponderosa. Leavenworth (Bavarian village) 6 miles away. Rock climbing, white water kayaking nearby. Bears active.",
       "bucket_list": false,
       "unique_features": ["river_access", "old_growth_forest"],
-      "best_season": "May-October"
+      "best_season": "May-October",
+      "pet_friendly": true,
+      "dogs_on_leash_ok": true,
+      "water_nearby": "river",
+      "water_swimmable": false,
+      "hiking_trails": true,
+      "max_group_size": 20,
+      "has_group_sites": false
     },
     {
       "id": "manual-diablo-lake",
@@ -193,7 +277,14 @@
       "notes": "Turquoise glacial meltwater lake so vivid it looks fake. North Cascades Highway stops here. Diablo Lake overlook is one of the most photographed views in Washington. Black bears, mountain goats, and the occasional grizzly in the distance.",
       "bucket_list": true,
       "unique_features": ["alpine_lake"],
-      "best_season": "July-September"
+      "best_season": "July-September",
+      "pet_friendly": true,
+      "dogs_on_leash_ok": true,
+      "water_nearby": "lake",
+      "water_swimmable": true,
+      "hiking_trails": true,
+      "max_group_size": 40,
+      "has_group_sites": true
     },
     {
       "id": "manual-staircase",
@@ -208,7 +299,14 @@
       "notes": "Olympic NP's least-visited old-growth section. Massive Douglas firs, the Skokomish River, and the quietest trails in the park. No ocean crowds. Elk everywhere.",
       "bucket_list": false,
       "unique_features": ["old_growth_forest", "river_access"],
-      "best_season": "Year-round"
+      "best_season": "Year-round",
+      "pet_friendly": true,
+      "dogs_on_leash_ok": true,
+      "water_nearby": "river",
+      "water_swimmable": false,
+      "hiking_trails": true,
+      "max_group_size": 8,
+      "has_group_sites": false
     },
     {
       "id": "manual-palouse-falls",
@@ -223,7 +321,14 @@
       "notes": "Washington's official state waterfall. 198-foot plunge into a basalt canyon carved by the Missoula Floods. Completely unexpected in the flat Palouse — you don't see it until you're right at the edge. Rattlesnakes present.",
       "bucket_list": true,
       "unique_features": ["waterfall_nearby", "volcanic_landscape", "dark_sky"],
-      "best_season": "March-June (peak flow), fall for solitude"
+      "best_season": "March-June (peak flow), fall for solitude",
+      "pet_friendly": true,
+      "dogs_on_leash_ok": true,
+      "water_nearby": "river",
+      "water_swimmable": false,
+      "hiking_trails": true,
+      "max_group_size": 6,
+      "has_group_sites": false
     },
     {
       "id": "manual-steamboat-rock",
@@ -238,7 +343,14 @@
       "notes": "A 800-foot basalt butte rising from Banks Lake in the coulees. Striking landscape sculpted by the Ice Age floods. Swimming, fishing, and a hike to the summit for panoramic coulee views. Most campers have never heard of it.",
       "bucket_list": true,
       "unique_features": ["volcanic_landscape", "dark_sky"],
-      "best_season": "April-October"
+      "best_season": "April-October",
+      "pet_friendly": true,
+      "dogs_on_leash_ok": true,
+      "water_nearby": "lake",
+      "water_swimmable": true,
+      "hiking_trails": true,
+      "max_group_size": 60,
+      "has_group_sites": true
     },
     {
       "id": "manual-beacon-rock",
@@ -253,7 +365,14 @@
       "notes": "The second largest monolith in North America, right on the Columbia River. A trail switchbacks up the rock face for views of the Gorge. Camp in the trees below, hike the rock at sunrise before the crowds. Peregrine falcons nest here.",
       "bucket_list": true,
       "unique_features": ["geological", "river_access"],
-      "best_season": "March-November"
+      "best_season": "March-November",
+      "pet_friendly": true,
+      "dogs_on_leash_ok": true,
+      "water_nearby": "river",
+      "water_swimmable": false,
+      "hiking_trails": true,
+      "max_group_size": 20,
+      "has_group_sites": false
     },
     {
       "id": "manual-john-day",
@@ -268,7 +387,14 @@
       "notes": "Camping in an ancient world — 40 million-year-old fossils in painted hills and basalt formations. At night: some of the darkest skies in Oregon. Rattlesnakes, pronghorn, golden eagles. Completely different from anything else in the PNW.",
       "bucket_list": true,
       "unique_features": ["dark_sky", "geological", "volcanic_landscape"],
-      "best_season": "April-June, September-October"
+      "best_season": "April-June, September-October",
+      "pet_friendly": true,
+      "dogs_on_leash_ok": true,
+      "water_nearby": "river",
+      "water_swimmable": false,
+      "hiking_trails": true,
+      "max_group_size": 20,
+      "has_group_sites": false
     },
     {
       "id": "manual-newberry-volcano",
@@ -283,7 +409,14 @@
       "notes": "Paulina Lake and East Lake inside an active volcano caldera. Obsidian flows you can walk on. Two crater lakes, hot springs seeping up through the lakebed. Mount Newberry's caldera is 5 miles wide — America's largest shield volcano.",
       "bucket_list": true,
       "unique_features": ["volcanic_landscape", "alpine_lake", "hot_springs_nearby"],
-      "best_season": "June-October"
+      "best_season": "June-October",
+      "pet_friendly": true,
+      "dogs_on_leash_ok": true,
+      "water_nearby": "lake",
+      "water_swimmable": true,
+      "hiking_trails": true,
+      "max_group_size": 40,
+      "has_group_sites": true
     },
     {
       "id": "manual-white-river",
@@ -298,7 +431,14 @@
       "notes": "High-camp feel at 4400 feet on Rainier's east side. Emmons Glacier visible from camp. Sunrise road leads to the most photographed wildflower meadows in the park. Summer only — snow closes road through early July.",
       "bucket_list": true,
       "unique_features": ["alpine_lake", "volcanic_landscape"],
-      "best_season": "Mid-July through September"
+      "best_season": "Mid-July through September",
+      "pet_friendly": true,
+      "dogs_on_leash_ok": true,
+      "water_nearby": "river",
+      "water_swimmable": false,
+      "hiking_trails": true,
+      "max_group_size": 8,
+      "has_group_sites": false
     },
     {
       "id": "manual-dungeness",
@@ -313,7 +453,14 @@
       "notes": "Camp next to the longest natural sand spit in the US (5.5 miles). Dungeness National Wildlife Refuge is adjacent — harbor seals, black-tailed deer, over 250 bird species. Views of the Olympic Mountains from camp.",
       "bucket_list": false,
       "unique_features": ["coastal_oceanfront"],
-      "best_season": "Year-round (mild Sequim rain shadow)"
+      "best_season": "Year-round (mild Sequim rain shadow)",
+      "pet_friendly": true,
+      "dogs_on_leash_ok": true,
+      "water_nearby": "ocean",
+      "water_swimmable": false,
+      "hiking_trails": true,
+      "max_group_size": 15,
+      "has_group_sites": false
     },
     {
       "id": "manual-cape-disappointment",
@@ -328,7 +475,14 @@
       "notes": "Where the Columbia River meets the Pacific. Two historic lighthouses. Beach camping in the dunes, or forest sites in old-growth. Surf breaks nearby. Lewis and Clark's journey ended here.",
       "bucket_list": true,
       "unique_features": ["coastal_oceanfront", "old_growth_forest"],
-      "best_season": "May-September"
+      "best_season": "May-September",
+      "pet_friendly": true,
+      "dogs_on_leash_ok": true,
+      "water_nearby": "ocean",
+      "water_swimmable": false,
+      "hiking_trails": true,
+      "max_group_size": 50,
+      "has_group_sites": true
     },
     {
       "id": "manual-samuel-h-boardman",
@@ -343,7 +497,14 @@
       "notes": "12 miles of the most dramatic coastline in Oregon — sea arches, natural bridges, secluded coves. No developed camping but dispersed sites exist. Usually combined with Harris Beach. Often called the most beautiful stretch of US coastline.",
       "bucket_list": true,
       "unique_features": ["coastal_oceanfront"],
-      "best_season": "Year-round"
+      "best_season": "Year-round",
+      "pet_friendly": true,
+      "dogs_on_leash_ok": true,
+      "water_nearby": "ocean",
+      "water_swimmable": false,
+      "hiking_trails": true,
+      "max_group_size": 10,
+      "has_group_sites": false
     }
   ]
 }

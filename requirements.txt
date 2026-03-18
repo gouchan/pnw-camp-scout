@@ -7,3 +7,5 @@ aiohttp>=3.9.0
 geopy>=2.4.0
 rich>=13.7.0
 click>=8.1.0
+python-telegram-bot>=20.0
+pyyaml>=6.0
