@@ -1,0 +1,48 @@
+# Environment — never commit real credentials
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Database — local data stays local
+data/campsites.db
+data/campsites.db-shm
+data/campsites.db-wal
+
+# Outputs
+outputs/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Jupyter (if used for analysis)
+.ipynb_checkpoints/
